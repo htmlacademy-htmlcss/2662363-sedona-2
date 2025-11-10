@@ -44,30 +44,36 @@
           <ul class="navigation-user">
             <li class="navigation-item">
               <a class="navigation-link navigation-search" href="#">
-                <img
-                  src="images/search.svg"
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
                   width="20"
                   height="20"
-                  alt="Поиск"
-                />
+                  fill="none"
+                >
+                  <path
+                    fill="currentColor"
+                    d="m19.5 18-3.7-3.67c1-1.3 1.7-2.98 1.7-4.87a8 8 0 0 0-8-7.96c-4.4 0-8 3.68-8 8.06a8 8 0 0 0 12.9 6.26l3.7 3.68 1.4-1.5Zm-10-2.48a6 6 0 0 1-6-5.96 6 6 0 0 1 12 0 6 6 0 0 1-6 5.96Z"
+                  />
+                </svg>
                 <span class="visually-hidden">Поиск</span>
               </a>
             </li>
 
             <li class="navigation-item">
               <a class="navigation-link navigation-favorites" href="#">
-                <img
-                  src="images/heart.svg"
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
                   width="20"
                   height="20"
-                  alt="Избранное"
-                />
-                <span class="visually-hidden">Избранное</span>
-                <span
-                  class="favorite-badge"
-                  aria-label="12 элементов в избранном"
-                  >12</span
+                  fill="none"
                 >
+                  <path
+                    fill="currentColor"
+                    d="M9.9 19a.9.9 0 0 1-.8-.4c-5.4-6.1-6.7-7.5-7-7.9A5.4 5.4 0 0 1 6.5 2C7.8 2 9 2.5 10 3.3a5.46 5.46 0 0 1 9 4.1c0 1.3-.5 2.5-1.3 3.4l-7 7.9c-.2.2-.4.3-.8.3Zm-6-9.5c.3.4 3.5 4 6.1 6.9l6.2-7c.5-.5.7-1.2.7-2 0-1.8-1.5-3.3-3.3-3.3-1 0-2 .5-2.7 1.3-.3.3-.6.4-.9.4-.3 0-.6-.2-.8-.4-.7-.8-1.7-1.3-2.7-1.3-1.8 0-3.3 1.5-3.3 3.3-.1.9.3 1.6.7 2.1-.1 0-.1 0 0 0Z"
+                  />
+                </svg>
+                <span class="visually-hidden">Избранное</span>
+                <span class="favorite-badge" width="20" height="20">12</span>
               </a>
             </li>
 
@@ -101,8 +107,9 @@
                   </svg>
                 </a>
               </li>
+
               <li class="breadcrumbs-item">
-                <a class="breadcrumbs-link" href="catalog.html">
+                <a class="breadcrumbs-link">
                   <svg
                     width="8"
                     height="20"
@@ -111,15 +118,12 @@
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      fill="currentColor"
                       d="M6.91526 9.4375L2.16526 5.1875C1.91526 4.9375 1.41526 4.9375 1.04026 5.1875C0.665263 5.4375 0.790263 5.9375 1.04026 6.1875L5.16526 9.9375L1.16526 13.6875C0.915263 13.9375 0.915263 14.4375 1.16526 14.6875C1.16526 14.8125 1.54026 14.9375 1.66526 14.9375C1.79026 14.9375 2.04026 14.8125 2.16526 14.6875L6.91526 10.4375C7.29026 10.1875 7.29026 9.6875 6.91526 9.4375Z"
                       fill="#fff"
                     />
                   </svg>
-                </a>
-              </li>
-              <li class="breadcrumbs-item">
-                <a class="breadcrumbs-link">Гостиницы</a>
+                  Гостиницы</a
+                >
               </li>
             </ul>
           </nav>
@@ -136,38 +140,38 @@
                   <li class="catalog-filter-item">
                     <label class="control">
                       <input
-                        class="visually-hidden control-input"
+                        class="visually-hidden control-input input"
                         type="checkbox"
                         name="infrastructure"
                         value="pool"
                         checked
                       />
-                      <span class="control-mark" aria-hidden="true"></span>
+                      <span class="control-mark"></span>
                       <span class="control-label">Бассейн</span>
                     </label>
                   </li>
                   <li class="catalog-filter-item">
                     <label class="control">
                       <input
-                        class="visually-hidden control-input"
+                        class="visually-hidden control-input input"
                         type="checkbox"
                         name="infrastructure"
                         value="parking"
                         checked
                       />
-                      <span class="control-mark" aria-hidden="true"></span>
+                      <span class="control-mark"></span>
                       <span class="control-label">Парковка</span>
                     </label>
                   </li>
                   <li class="catalog-filter-item">
                     <label class="control">
                       <input
-                        class="visually-hidden control-input"
+                        class="visually-hidden control-input input"
                         type="checkbox"
                         name="infrastructure"
                         value="wifi"
                       />
-                      <span class="control-mark" aria-hidden="true"></span>
+                      <span class="control-mark"></span>
                       <span class="control-label">Wi-Fi</span>
                     </label>
                   </li>
@@ -181,32 +185,32 @@
                   <li class="catalog-filter-item">
                     <label class="control">
                       <input
-                        class="visually-hidden control-input"
+                        class="visually-hidden control-input input"
                         type="radio"
                         name="housing-type"
                         value="hotel"
                         checked
                       />
-                      <span class="control-mark" aria-hidden="true"></span>
+                      <span class="control-mark"></span>
                       <span class="control-label">Гостиница</span>
                     </label>
                   </li>
                   <li class="catalog-filter-item">
                     <label class="control">
                       <input
-                        class="visually-hidden control-input"
+                        class="visually-hidden control-input input"
                         type="radio"
                         name="housing-type"
                         value="motel"
                       />
-                      <span class="control-mark" aria-hidden="true"></span>
+                      <span class="control-mark"></span>
                       <span class="control-label">Мотель</span>
                     </label>
                   </li>
                   <li class="catalog-filter-item">
                     <label class="control">
                       <input
-                        class="visually-hidden control-input"
+                        class="visually-hidden control-input input"
                         type="radio"
                         name="housing-type"
                         value="apartment"
@@ -289,67 +293,43 @@
         </section>
 
         <section class="hotel-search" data-test="catalog">
-          <div class="container-search">
-            <h2 class="visually-hidden">Результаты поиска</h2>
-            <p class="catalog-products-title">Найдено гостиниц: 38</p>
-
-            <form class="sorting-form" aria-label="Сортировка результатов">
-              <label for="sort-method" class="visually-hidden"
-                >Сортировать по:</label
-              >
-              <select
-                id="sort-method"
-                class="select-control arrow-down"
-                name="sort"
-              >
-                <option value="popular">Сначала дешевые</option>
-                <option value="price-asc">Сначала популярные</option>
-                <option value="price-desc">Сначала дорогие</option>
-              </select>
-            </form>
-
-            <nav
-              class="view-switcher"
-              aria-label="Переключение вида отображения"
+          <h2 class="hotel-searc-title">Найдено гостиниц: 38</h2>
+          <form class="sorting-form">
+            <select
+              class="select-control arrow-down"
+              id="sort-method"
+              class="select-control arrow-down"
+              name="sort"
             >
-              <ul class="view-buttons">
-                <li class="view-buttons-item">
-                  <button
-                    class="view-button view-button-tiles"
-                    type="button"
-                    aria-pressed="true"
-                    aria-label="Плитка"
-                  >
-                    <span class="visually-hidden">Плитка</span>
-                  </button>
-                </li>
-                <li class="view-buttons-item">
-                  <button
-                    class="view-button view-button-card"
-                    type="button"
-                    aria-pressed="false"
-                    aria-label="Карточки"
-                  >
-                    <span class="visually-hidden">Карточки</span>
-                  </button>
-                </li>
-                <li class="view-buttons-item">
-                  <button
-                    class="view-button view-button-list"
-                    type="button"
-                    aria-pressed="false"
-                    aria-label="Список"
-                  >
-                    <span class="visually-hidden">Список</span>
-                  </button>
-                </li>
-              </ul>
-            </nav>
-          </div>
+              <option value="popular">Сначала дешевые</option>
+              <option value="price-asc">Сначала популярные</option>
+              <option value="price-desc">Сначала дорогие</option>
+            </select>
+          </form>
+
+          <nav class="view-switcher" aria-label="Переключение вида отображения">
+            <ul class="view-buttons">
+              <li class="view-buttons-item">
+                <button class="view-button view-button-tiles" type="button">
+                  <span class="visually-hidden">Плитка</span>
+                </button>
+              </li>
+              <li class="view-buttons-item">
+                <button class="view-button view-button-card" type="button">
+                  <span class="visually-hidden">Карточки</span>
+                </button>
+              </li>
+              <li class="view-buttons-item">
+                <button class="view-button view-button-list" type="button">
+                  <span class="visually-hidden">Список</span>
+                </button>
+              </li>
+            </ul>
+          </nav>
         </section>
 
         <!-- Список гостиниц -->
-        <section class="hotels-card" aria-labelledby="hotels-heading">
+        <section class="hotels-card">
           <h2 id="hotels-heading" class="visually-hidden">Список гостиниц</h2>
           <ul class="cards-wrapper">
             <!-- Карточка 1 -->
@@ -398,7 +378,7 @@
 
               <div class="button-actions">
                 <button class="btn details-btn">Подробнее</button>
-                <button class="btn favorite-btn-active">В избранное</button>
+                <button class="btn favorite-btn-active">В избранном</button>
               </div>
 
               <div class="reviews">
@@ -528,7 +508,7 @@
             <div class="flex-subscribe-field">
               <label class="visually-hidden" for="email">Ваш email</label>
               <input
-                class="field subscribe-field"
+                class="field subscribe-field input"
                 type="email"
                 name="email"
                 placeholder="Ваш e-mail"
