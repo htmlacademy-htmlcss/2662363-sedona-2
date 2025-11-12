@@ -31,12 +31,12 @@ body {
   flex-direction: column;
   min-height: 100%;
   margin: 0;
+  padding: 0;
   margin: 0 auto;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
-  font-style: normal;
   color: #333;
   background-color: #fff;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
@@ -44,7 +44,7 @@ body {
 
 /* Page-container */
 .page-container {
-  width: 1200px;
+  min-width: 1200px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -145,10 +145,8 @@ body {
 
 .navigation-link:hover,
 .navigation-link:focus {
-  color:#505050;
+  color: #505050;
 }
-
-
 
 .navigation-favorites {
   margin-left: 1px;
@@ -193,9 +191,8 @@ body {
 
 .favorite-badge:hover,
 .favorite-badge:focus {
-   background-color: #8ec85f;
+  background-color: #8ec85f;
 }
-
 
 .navigation-button-link {
   display: flex;
@@ -396,13 +393,19 @@ body {
 }
 
 /* Services */
+.services {
+  margin-top: 47px;
+  margin-bottom: -7px;
+}
+
 .services-header {
   width: 1200px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 40px;
+  margin-top: -46px;
+  margin-bottom: 0;
 }
 
 .services-title {
@@ -412,6 +415,7 @@ body {
   text-transform: uppercase;
   text-align: center;
   color: #000;
+  margin-top: 62px;
   margin-bottom: -2px;
 }
 
@@ -422,46 +426,54 @@ body {
   line-height: 26px;
   text-align: center;
   color: #333;
-  margin-bottom: 64px;
 }
 
 .services-cards {
+  width: 1200px;
+  max-height: 385;
   display: flex;
   justify-content: center;
-  width: 1200px;
-  margin-top: -102px;
-  padding: 81px 85px;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 11px;
+  margin-bottom: -16px;
 }
 
 .services-list {
-  display: flex;
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   text-align: center;
-  padding: 0 20px;
-  margin-top: 20px;
+  padding: 0;
+  margin-top: 40px;
 }
 
 .service-item {
   width: 400px;
-  display: flex;
-  flex-direction: column;
   min-height: 385px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 81px 85px;
+  padding-bottom: 18px;
 }
 
 .service-icon {
-  display: flex;
-  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  margin-top: -1px;
 }
 
 .service-card-title {
-  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
+  text-align: center;
   color: #000;
-  margin-top: 29px;
-  margin-bottom: 14px;
+  margin-top: 27px;
+  margin-left: -1px;
 }
 
 .service-card-text {
@@ -470,22 +482,16 @@ body {
   line-height: 21px;
   text-align: center;
   color: #333;
-  margin-top: 15px;
+  margin-top: 4px;
   margin-left: -2px;
-}
-
-.light-blue {
-  background-color: #f0f6fa;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .light {
   background-color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+}
+
+.light-blue {
+  background-color: #f0f6fa;
 }
 
 /* Search */
@@ -496,7 +502,7 @@ body {
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  margin-top: 27px;
+  margin-top: 124px;
 }
 .search-title {
   font-weight: 700;
@@ -566,7 +572,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom;
-  margin-top: -48px;
+  margin-top: -49px;
   padding: 0;
 }
 
